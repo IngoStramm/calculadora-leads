@@ -1,5 +1,5 @@
 {
-  "name": "cl",
+  "name": "calculadora-leads",
   "version": "0.0.1",
   "description": "Plugin Model to start a plugin for WordPress",
   "main": "Gruntfile.js",
