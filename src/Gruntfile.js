@@ -26,7 +26,7 @@ module.exports = function (grunt) {
             },
             all: [
                 'Gruntfile.js',
-                '<%= dirs.js %>/cl.js'
+                '<%= dirs.js %>/calculadora-leads.js'
             ]
         },
 
@@ -34,8 +34,8 @@ module.exports = function (grunt) {
         uglify: {
             dist: {
                 files: {
-                    '<%= dirs.js %>/cl.min.js': [
-                        '<%= dirs.js %>/cl.js'    // Custom JavaScript
+                    '<%= dirs.js %>/calculadora-leads.min.js': [
+                        '<%= dirs.js %>/calculadora-leads.js'    // Custom JavaScript
                     ]
                 }
             }
