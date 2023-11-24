@@ -4,7 +4,7 @@
  * Plugin Name: Calculadora de Leads
  * Plugin URI: https://agencialaf.com
  * Description: Descrição do Calculadora de Leads.
- * Version: 0.0.1
+ * Version: 0.0.2
  * Author: Ingo Stramm
  * Text Domain: cl
  * License: GPLv2

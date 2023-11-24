@@ -1,6 +1,6 @@
 {
     "name": "Calculadora de Leads",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "download_url": "https://github.com/IngoStramm/calculadora-leads/raw/main/dist/calculadora-leads.zip",
     "homepage": "https://agencialaf.com",
     "requires": "4.7",
