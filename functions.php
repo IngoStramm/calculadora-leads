@@ -45,7 +45,7 @@ add_action('wp_ajax_cl_calcula_leads', 'cl_calcula_leads');
 
 function cl_calcula_leads()
 {
-    $fields = array('segmento', 'faturamento', 'ticket-medio', 'leads');
+    $fields = array('segmento', 'faturamento', 'ticket-medio');
     $data = [];
     foreach ($fields as $name) {
         $data[$name] = cl_get_field_value($name);
@@ -85,11 +85,11 @@ function cl_calcula_leads()
     $taxa_conversao = ($vendas / $visitantes_leads) * 100;
     $taxa_conversao = round($taxa_conversao, 2);
 
-    $vendedores_necessarios = ceil($oportunidades_vendas / floatval($data['leads']));
+    // $vendedores_necessarios = ceil($oportunidades_vendas / floatval($data['leads']));
 
-    $leads_atendidos = ceil($oportunidades_vendas / $vendedores_necessarios);
+    // $leads_atendidos = ceil($oportunidades_vendas / $vendedores_necessarios);
 
-    $vendas_realizadas = ceil($vendas / $vendedores_necessarios);
+    // $vendas_realizadas = ceil($vendas / $vendedores_necessarios);
 
 
     $response = array(

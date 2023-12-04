@@ -163,23 +163,23 @@
                         taxa_conversao_html.innerText = taxa_conversao + '%';
                     }
 
-                    const vendedores_necessarios = response.data.vendedores_necessarios;
-                    const vendedores_necessarios_html = document.getElementById('resultado-vendedores-necessarios');
-                    if (typeof vendedores_necessarios_html !== undefined && vendedores_necessarios_html) {
-                        vendedores_necessarios_html.innerText = vendedores_necessarios;
-                    }
+                    // const vendedores_necessarios = response.data.vendedores_necessarios;
+                    // const vendedores_necessarios_html = document.getElementById('resultado-vendedores-necessarios');
+                    // if (typeof vendedores_necessarios_html !== undefined && vendedores_necessarios_html) {
+                    //     vendedores_necessarios_html.innerText = vendedores_necessarios;
+                    // }
 
-                    const leads_atendidos = response.data.leads_atendidos;
-                    const leads_atendidos_html = document.getElementById('resultado-leads-atendidos');
-                    if (typeof leads_atendidos_html !== undefined && leads_atendidos_html) {
-                        leads_atendidos_html.innerText = leads_atendidos;
-                    }
+                    // const leads_atendidos = response.data.leads_atendidos;
+                    // const leads_atendidos_html = document.getElementById('resultado-leads-atendidos');
+                    // if (typeof leads_atendidos_html !== undefined && leads_atendidos_html) {
+                    //     leads_atendidos_html.innerText = leads_atendidos;
+                    // }
 
-                    const vendas_realizadas = response.data.vendas_realizadas;
-                    const vendas_realizadas_html = document.getElementById('resultado-vendas-realizadas');
-                    if (typeof vendas_realizadas_html !== undefined && vendas_realizadas_html) {
-                        vendas_realizadas_html.innerText = vendas_realizadas;
-                    }
+                    // const vendas_realizadas = response.data.vendas_realizadas;
+                    // const vendas_realizadas_html = document.getElementById('resultado-vendas-realizadas');
+                    // if (typeof vendas_realizadas_html !== undefined && vendas_realizadas_html) {
+                    //     vendas_realizadas_html.innerText = vendas_realizadas;
+                    // }
 
                     exibeMensagens('Cálculo de leads finalizado! Veja o resultado abaixo.');
 

@@ -26,8 +26,8 @@ function cl_form()
     $output .=      '<label for="ticket-medio">' . __('Qual é o seu ticket médio?', 'cl') . '</label>';
     $output .=      '<input type="text" id="ticket-medio" name="ticket-medio" required="required" />';
 
-    $output .=      '<label for="leads">' . __('Quantos leads seus vendedores atendem por mês?', 'cl') . '</label>';
-    $output .=      '<input type="text" id="leads" name="leads" required="required" />';
+    // $output .=      '<label for="leads">' . __('Quantos leads seus vendedores atendem por mês?', 'cl') . '</label>';
+    // $output .=      '<input type="text" id="leads" name="leads" required="required" />';
 
     $output .=      '<button>' . __('Calcular', 'cl') . '</button>';
 
@@ -102,9 +102,9 @@ function cl_resultados()
     $output .=              '<ul class="cl-resultados-lista">';
     $output .=                  '<li><span id="resultado-vendas-desejadas">0</span> ' . __('vendas desejadas', 'cl') . '</li>';
     $output .=                  '<li><span id="resultado-taxas-conversao">0%</span> ' . __('taxa de coversão', 'cl') . '</li>';
-    $output .=                  '<li><span id="resultado-vendedores-necessarios">0</span> ' . __('vendedores necessários', 'cl') . '</li>';
-    $output .=                  '<li><span id="resultado-leads-atendidos">0</span> ' . __('Leads atendidos', 'cl') . '</li>';
-    $output .=                  '<li><span id="resultado-vendas-realizadas">0</span> ' . __('Vendas realizadas', 'cl') . '</li>';
+    // $output .=                  '<li><span id="resultado-vendedores-necessarios">0</span> ' . __('vendedores necessários', 'cl') . '</li>';
+    // $output .=                  '<li><span id="resultado-leads-atendidos">0</span> ' . __('Leads atendidos', 'cl') . '</li>';
+    // $output .=                  '<li><span id="resultado-vendas-realizadas">0</span> ' . __('Vendas realizadas', 'cl') . '</li>';
     $output .=              '</ul>';
 
     $output .=          '</div>';
